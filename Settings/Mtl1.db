@@ -1,0 +1,19 @@
+DetectorName	MTL1
+NChambers	8
+NAdcs		4	Assign	0 1 6 7
+NThps		1
+NChecks		9
+Trigger		8	Assign	0 1 2 3 4 5 6 7
+TriggerCoinc	4
+PadSizeMm	12
+ChamberBasicsInfo
+ChamberBasics	Name Mwpc8080_sn29	Size 64 64	PosZ 0000	AdcPedestal 1484 AdcScale +1.0	End
+ChamberBasics	Name Mwpc8080_sn30	Size 64 64	PosZ 0080	AdcPedestal 1490 AdcScale +1.0	End
+ChamberBasics	Name Mwpc8080_sn13	Size 64 64	PosZ 0160	AdcPedestal 0	 AdcScale -1.0	End
+ChamberBasics	Name Mwpc8080_sn18	Size 64 64	PosZ 0240	AdcPedestal 0	 AdcScale -1.0 	End
+ChamberBasics	Name Mwpc8080_sn15	Size 64 64	PosZ 0320	AdcPedestal 0	 AdcScale -1.0	End
+ChamberBasics	Name Mwpc8080_sn16	Size 64 64	PosZ 0400	AdcPedestal 0	 AdcScale -1.0	End
+ChamberBasics	Name Mwpc8080_sn31	Size 64 64	PosZ 0480	AdcPedestal 1494 AdcScale +1.0	End
+ChamberBasics	Name Mwpc8080_sn32	Size 64 64	PosZ 0560	AdcPedestal 1500 AdcScale +1.0 	End
+DeadTime	180	85
+

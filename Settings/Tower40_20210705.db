@@ -1,0 +1,18 @@
+DetectorName	Tower40_ResolutionTest
+NChambers	10
+NAdcs		10	Assign	0 1 2 3 4 5 6 7 8 9
+NThps		1
+NChecks		4
+Trigger		5	Assign	0 1 2 8 9
+PadSizeMm	12
+ChamberBasicsInfo
+ChamberBasics	Name Mwpc4040_sn030	Size 32 32	PosZ 0000	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn043	Size 32 32	PosZ 0063	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn044	Size 32 32	PosZ 0126	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn041	Size 32 32	PosZ 0189	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn039	Size 32 32	PosZ 0252	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn048	Size 32 32	PosZ 0315	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn047	Size 32 32	PosZ 0378	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn046	Size 32 32	PosZ 0441	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc8080_sn073	Size 64 64	PosZ 3960 PosX -280 PosY -160	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc8080_sn074	Size 64 64	PosZ 4020 PosX -280 PosY -160	AdcPedestal 1492	End

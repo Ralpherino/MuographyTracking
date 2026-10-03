@@ -1,0 +1,15 @@
+./Tracking.run -b Mtl1 -ap Mtl1 -v 2 -rd Results/Mtl1_LaborTests -me 1M 
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run60
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run61
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run62
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run63
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run64
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run65
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run66
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run67
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run68
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run69
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run70
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run71
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run72
+-en ../../Measurements/Mtl1_201804-06_Labor/Mtl1_Run73

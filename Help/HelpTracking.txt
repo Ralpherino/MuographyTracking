@@ -1,0 +1,52 @@
+
+Tracking : Help
+
+Tracking and analysis program, developed for the R&D and operation of the
+detectors of the WignerRCP REGARD Group.
+
+Usage of the program:
+./Tracking.run [switch [parameter]]
+
+Switches and parameters can be:
+-h,--help		- Shows this very help
+-e,--ebefile EbeFile	- Uses the specifed EbeFile
+-e,--ebefile "EbeFile1 EbeFile2 ..." - to use a set of EbeFiles
+-l,--ebe-list ListFile	- Uses list of EbeFiles specfied in ListFile
+-en EbeFileNaming	- Uses list of ebe files of EbeFileNaming*ebe*
+-b,--basic-info DBFile	- Loads Detector Basics file
+-i,--info-in ResFile	- Reads initial info from ResultsFile
+-r,--results Filenaming	- Set filename for results file,
+	default is taken from the name of the EbeFile or the ListFile
+-rd,--dir-results Dir	- Moves the results to directory Dir, default is "Results"
+-ap,--analysis-parameters Filename  - Loads the specified parameter file
+-aps,--analysis-parameter-set ParName Value - Sets a specific analysis parameter to Value
+-ma,--multi-track-analysis MaFile - Activates multi-track analysis based on MaFile
+-me,--max-events Number	- Analysis stops after Number of events
+-ee,--every Number	- Analysis on every Number of events
+-se,--skip-first Number	- Skips the first Number of events
+-t,--tracks Yes/No	- Writes the details of good tracks
+-g,--gnuplot Yes/No	- Creates Gnuplot header and plots into pdf
+-gp,--plot Filename	- Uses Filename for gnuplot script
+-sp,--show-plots Yes/No	- Shows the created plot from the pdf
+-p,--prevalence Number	- Sets frequency of info to screen
+-s,--show-events Number	- Visualizes the first Number of nice events
+--start,--start-run DateTime	- Overwrites the start of run, format YYYY-MM-DD_HH:MM:SS
+--dtdt,--difftime-as-datetime	- Use EventDiffTime instead of the recorded DateTime tag
+-v,--verbose Number	- Sets the verbose level to number (0..2)
+-vs,--speak Yes/No	- Says ready if finished
+-id,--id Number		- Sets the IdNumber used in parallel running
+
+  Defaults directories 
+Results dir is default for switches : -r,-t,-i.
+Settings dir is default for switches : -b,-ap.
+Source dir contains the analysis source codes and their compiler.
+
+  Examples:
+To run the Tracking for the MTS8 setup, on Run20, with generating and
+showing the performance plots
+./Tracking.run -b Settings/Mts8.db -e ../../Measurements/Mts8*/Mts8_Run20.ebe -sp yes
+./Tracking.run -b Settings/Mts8.db -en../../Measurements/Mts8*/Mts8_Run20 -sp y
+
+
+End of Help.
+

@@ -1,0 +1,14 @@
+DetectorName	Tower40_20191206
+NChambers	6
+NAdcs		6	Assign	0 1 2 3 4 5
+NThps		1
+NChecks		4
+Trigger		6	Assign	0 1 2 3 4 5
+PadSizeMm	12
+ChamberBasicsInfo
+ChamberBasics	Name Mwpc4040_sn025	Size 32 32	PosZ 0000	AdcPedestal 1492 AdcScale 2.0	End
+ChamberBasics	Name Mwpc4040_sn029	Size 32 32	PosZ 0059	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn041	Size 32 32	PosZ 0118	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn044	Size 32 32	PosZ 0176	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn043	Size 32 32	PosZ 0235	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc4040_sn030	Size 32 32	PosZ 0293	AdcPedestal 1492	End

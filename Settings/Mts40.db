@@ -1,0 +1,19 @@
+DetectorName	MTS-40
+NChambers	8
+NAdcs		8	Assign	0 1 2 3 4 5 6 7
+NThps		1
+HvControl	1
+NChecks		0
+Trigger		8	Assign	0 1 2 3 4 5 6 7
+PadSizeMm	4
+TriggerCoinc	4
+ChamberBasicsInfo
+ChamberBasics	Name Mt4040_sn01 Size 128  80	PosZ 000	PadSizeXY 3.125 5.0	Flips 1 16 0	 AdcPedestal 1488 AdcScale 1.0	End
+ChamberBasics	Name Mt4040_sn02 Size  80 128	PosZ 040	PadSizeXY 5.0 3.125	Flips 0 2 64 112 AdcPedestal 1486 AdcScale 1.0	End
+ChamberBasics	Name Mt4040_sn03 Size 128  80	PosZ 080	PadSizeXY 3.125 5.0	Flips 1 16 0	 AdcPedestal 1494 AdcScale 1.0	End
+ChamberBasics	Name Mt4040_sn04 Size  80 128	PosZ 120	PadSizeXY 5.0 3.125	Flips 0 2 64 112 AdcPedestal 1486 AdcScale 1.0	End
+ChamberBasics	Name Mt4040_sn05 Size 128  80	PosZ 160	PadSizeXY 3.125 5.0	Flips 1 16 0	 AdcPedestal 1488 AdcScale 1.0	End
+ChamberBasics	Name Mt4040_sn06 Size  80 128	PosZ 200	PadSizeXY 5.0 3.125	Flips 0 2 64 112 AdcPedestal 1484 AdcScale 1.0	End
+ChamberBasics	Name Mt4040_sn07 Size 128  80	PosZ 240	PadSizeXY 3.125 5.0	Flips 1 16 0	 AdcPedestal 1494 AdcScale 1.0	End
+ChamberBasics	Name Mt4040_sn08 Size  80 128	PosZ 280	PadSizeXY 5.0 3.125	Flips 0 2 64 112 AdcPedestal 1488 AdcScale 1.0	End
+DeadTime	260	103

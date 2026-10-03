@@ -1,0 +1,19 @@
+DetectorName	MTL-3
+NChambers	8
+NAdcs		8	Assign	0 1 2 3 4 5 6 7
+NThps		2
+NChecks		9
+Trigger		8	Assign	0 1 2 3 4 5 6 7
+TriggerCoinc	4
+HvControl	1
+PadSizeMm	12
+ChamberBasicsInfo
+ChamberBasics	Name Mwpc8080_sn093	Size 64 64	PosZ 0418 PosX +3.82 PosY -2.97	AdcPedestal 1492 	End
+ChamberBasics	Name Mwpc8080_sn091	Size 64 64	PosZ 0358 PosX +2.71 PosY -0.44	AdcPedestal 1492 	End
+ChamberBasics	Name Mwpc8080_sn092	Size 64 64	PosZ 0298 PosX +0.44 PosY +1.64	AdcPedestal 1492 	End
+ChamberBasics	Name Mwpc8080_sn089	Size 64 64	PosZ 0238 PosX -1.51 PosY +2.83	AdcPedestal 1492 	End
+ChamberBasics	Name Mwpc8080_sn080	Size 64 64	PosZ 0178 PosX -2.12 PosY +3.20	AdcPedestal 1492 	End
+ChamberBasics	Name Mwpc8080_sn087	Size 64 64	PosZ 0119 PosX -0.21 PosY +0.97	AdcPedestal 1492 	End
+ChamberBasics	Name Mwpc8080_sn090	Size 64 64	PosZ 0059 PosX +1.71 PosY -0.78	AdcPedestal 1492 	End
+ChamberBasics	Name Mwpc8080_sn086	Size 64 64	PosZ 0000 PosX +3.14 PosY -3.40	AdcPedestal 1492 	End
+DeadTime	180	85

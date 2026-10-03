@@ -1,0 +1,21 @@
+# MTS-3 RunLevelInfoFile
+# RunName	ParameterName	Value ...
+
+# Laboratory tests
+Mtl1_Run10	NoExtraInfo
+# Esztramos
+Mtl1_Run148	PosNeh	354222.2 776034.5 182
+Mtl1_Run148	RotYxz	0 -14.2 356.9
+Esztramos	DemFile	/home/ghamar/Programozas/MuographyCampaigns/Esztramos/Topography/Esztramos.neh
+Esztramos	ZfdFile	Reyna.zfd
+#Esztramos	Tunnels	EsztramosTunnels.stl
+
+# Kiralylaki-Mts40
+Kiralylak	DemFile	/home/ghamar/Programozas/MuographyCampaigns/Kiralylaki/Topography/Kiralylaki_Surface.neh
+#Kiralylak	Tunnels	/home/ghamar/Programozas/MuographyCampaigns/Kiralylaki/Topography/Kiralylaki_Tunnels.stl
+Kiralylak	ZfdFile	Reyna.zfd
+Mts40_Run123	PosNeh	245420.474 647154.818 269.835
+Mts40_Run123	RotXyz	0 0 -273.7
+
+
+#EndRli	

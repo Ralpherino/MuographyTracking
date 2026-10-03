@@ -1,0 +1,51 @@
+
+FillMuogram : Help
+
+Command line interface to handle operations on a Muogram,
+like filling up with tracks, flux, or topology.
+Developed by GHamar at WignerRCP REGARD Group.
+
+Usage of the program:
+./FillMuogram.run [switch [parameter]]
+
+Switches and parameters can be:
+-h,--help			- Shows this very help
+-m,--muogram MuogramFileName	- Specifies the Muogram file name (otherwise taken from TrackList)
+-c,--create N/Y			- Creates a new Muogram (or uses the given one)
+-bs,--bin-size BinSize		- Sets Muogram BinSize in degrees
+-rd,--results-dir DirName	- Moves results to direcotry DirName
+-rli,--run-level-info-file RliFileName - Uses the specified settings in RliFileName
+-tl,--track-list-file TlFile	- Compute flux from tracklist in TlFile
+--rot-xyz RX RY RZ		- Set detector rotations in given order
+--rot-yxz RY RX RZ		- Set detector rotations in given order
+-fd,--flux-dl-conv Y/N		- Do the DensityLengh-Flux conversion (specifiying ZfdFile imlies Y)
+-zfd,--dl-flux-conv ZfdFile	- Use the given ZfdFile for DensityLengh-Flux conversion
+-t,--topography Y/N		- Do reading DemFile (specifying DemFile implies Y)
+-dem,--dem-file-name DemFile	- Read surface from DemFile as pointcloud
+-stl,--stl-file-name StlFile	- Read tunnels from StlFile
+-p,--pos-neh E N H		- Set measurement position: East North Height
+-d,--density Density		- Use fix density Density, 0 implies estimation
+-com,--compare Y/N		- Compare measured and calculated DensityLenth map
+-gp,--plot Y/N			- Plot to muogram layers to PDF
+-s,--show-info Y/N		- Write Muogram summary into to screen
+-w,--write Y/N			- Write the resulted muogram to disk
+-v,--verbose VLevel		- Sets verbosity to VLevel
+-id,--id IdNum			- Uses IdNum as id for temp files (not used)
+
+
+  Examples:
+
+Create a standard Muogram with 2deg bins from TrackList and topography
+./FillMuogram.run -bs 2 -tl EsztramosMine/Mtl1_Run100.tl --rot-yxz 0 10 324 -zdf Reyna.zdf -dem Esztramos.dem --pos-enh 775836 354176 180 -d 0 
+Or using a RunLevelInfo file
+./FillMuogram.run -bs 2 -tl EsztramosMine/Mtl1_Run100.tl -rls EsztramosMuograms.rli
+
+Creating a custom-name Muogram with 2deg bins from measured tracklist, and compute density-lengh
+./FillMuogram.run -bs 2 -c y -m Test.mgm -tl ../EsztramosMine/Mtl1_Run100.tl -zdf ../EsztramosMine/Esztramos.zdf
+Adding a surface info and plotting the results
+./FillMuogram.run -m Test.mgm -dem ../EsztramosMine/Esztramos.dem -p y
+
+
+
+End of Help.
+

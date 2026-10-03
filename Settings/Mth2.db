@@ -1,0 +1,16 @@
+DetectorName	Mth2
+NChambers	6
+NAdcs		6	Assign	0 1 2 3 4 5
+NThps		1
+NChecks		7
+HvControl	1
+Trigger		6	Assign	0 1 2 3 4 5
+PadSizeMm	12
+ChamberBasicsInfo
+ChamberBasics	Name Mwpc8080_sn048	Size 64 64	PosZ 0040  PosY 0374.0 PosX +01.0	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc8080_sn051	Size 64 64	PosZ 0106  PosY 0357.0 PosX +03.0	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc8080_sn050	Size 64 64	PosZ 0540  PosY 0222.0 PosX +00.7	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc8080_sn047	Size 64 64	PosZ 0610  PosY 0202.0 PosX +00.0	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc8080_sn049	Size 64 64	PosZ 1136  PosY 0043.0 PosX +02.0	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc8080_sn052	Size 64 64	PosZ 1201  PosY 0023.0 PosX +02.0	AdcPedestal 1496	End
+

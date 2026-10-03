@@ -1,0 +1,14 @@
+DetectorName	MwpcThpTester
+NChambers	4
+NAdcs		4	Assign	0 1 2 3
+NThps		3
+NChecks		7
+HvControl	1
+Trigger		5	Assign	-1 0 1 2 3
+TriggerCoinc	3
+PadSizeMm	12
+ChamberBasicsInfo
+ChamberBasics	Name Mwpc12080_sn051	Size 96 64	PosZ 0000	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc12080_sn052	Size 96 64	PosZ 0077	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc12080_sn054	Size 96 64	PosZ 0152	AdcPedestal 1492	End
+ChamberBasics	Name Mwpc12080_sn055	Size 96 64	PosZ 0233	AdcPedestal 1492	End

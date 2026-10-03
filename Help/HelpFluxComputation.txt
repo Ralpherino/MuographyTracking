@@ -1,0 +1,29 @@
+
+Flux Computation : Help
+
+Computes the Flux based on the TracksFile output of the Tracking analysis program. 
+Developed for the Muography usage of the detectors of the WignerRCP REGARD Group.
+
+Usage of the program:
+./FluxComputation.run [switch [parameter]]
+
+Switches and parameters can be:
+-h,--help                        - Shows this very help
+-t,--tracks-file TracksFile      - Uses the specifed TracksFile
+-l,--list-file ListFile          - Uses the files specified in the list
+-f,--flux-file FluxFile          - Sets the naming of the flux outputs
+-r,--results-file ResFile        - Get EffArea from ResFile instead of TracksFile
+-s,--simple-flux Yes/No	         - Turns simple-flux output on/off
+-g,--grained-flux Yes/No         - Turns grained-flux output on/off
+-p,--plot Yes/No                 - Plots the flux as a pdf
+-mt,--max-tracks Number          - Stops after Number of tracks
+-bs,--bin-size Number            - Sets the BinSize of the flux maps
+-mm,--map-max Number             - Sets the Max range of the flux maps
+-gl,--grain-count-limit Number   - Set the MaxCount for the GrainedMap Flux
+-scl,--smooth-count-limit Number - For smoothing set the count limit for bin merge
+-ssm,--smooth-size-max Number    - For smoothing set maximal merge size
+-o,--orientation OriName         - Uses orientation as for OriName
+-v,--verbose Number              - Sets the verbose level
+-rd,--dir-results DirName        - Set the directory for the results
+
+End of Help.

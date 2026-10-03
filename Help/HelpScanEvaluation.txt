@@ -1,0 +1,19 @@
+
+Scan Evaluation : Help
+
+For a given set of runs (and results) it generates the dependency
+of the main valiables versus the scan-parameter.
+Developed for the R&D and operation of the detectors of the WignerRCP REGARD Group.
+
+Usage of the program:
+./ScanEvaluation.run [switch [parameter]]
+
+Switches and parameters can be:
+-h,--help				- Shows this very help
+-b,--basic-info DBFile			- Loads Detector Basics file
+-l,--results-list ListFile		- Results listed in ListFile will be merged
+-s,--scan-name ScanResultsFile		- Sets the naming of the output file
+-v,--verbose Number			- Sets the verbose level to Number (0..2)
+
+End of Help.
+

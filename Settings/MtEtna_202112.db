@@ -1,0 +1,18 @@
+DetectorName	MtEtna
+NChambers	8
+NAdcs		8	Assign	0 1 2 3 4 5 6 7
+NThps		1
+NChecks		9
+HvControl	1
+Trigger		8	Assign	0 1 2 3 4 5 6 7
+PadSizeMm	12
+ChamberBasicsInfo
+ChamberBasics	Name Mwpc12080_sn060	Size 96 64	PosZ 0327  PosY 0002 PosX 0001	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc12080_sn064	Size 96 64	PosZ 0448  PosY 0022 PosX 0000	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc12080_sn051	Size 96 64	PosZ 0807  PosY 0078 PosX 0000	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc12080_sn063	Size 96 64	PosZ 1047  PosY 0119 PosX 0002	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc12080_sn054	Size 96 64	PosZ 1562  PosY 0197 PosX 0000	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc12080_sn062	Size 96 64	PosZ 1857  PosY 0228 PosX -005	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc12080_sn052	Size 96 64	PosZ 2099  PosY 0266 PosX 0000	AdcPedestal 1496	End
+ChamberBasics	Name Mwpc12080_sn055	Size 96 64	PosZ 2217  PosY 0284 PosX 0000	AdcPedestal 1496	End
+

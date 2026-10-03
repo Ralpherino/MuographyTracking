@@ -1,0 +1,14 @@
+Results/Mtl1/Mtl1_Run60.res	-00.1
+Results/Mtl1/Mtl1_Run61.res	+00.0
+Results/Mtl1/Mtl1_Run62.res	-09.8
+Results/Mtl1/Mtl1_Run63.res	-09.8
+Results/Mtl1/Mtl1_Run64.res	-19.8
+Results/Mtl1/Mtl1_Run65.res	-05.0
+Results/Mtl1/Mtl1_Run66.res	-44.5
+Results/Mtl1/Mtl1_Run67.res	-29.9
+Results/Mtl1/Mtl1_Run68.res	-59.5
+Results/Mtl1/Mtl1_Run69.res	-59.5
+Results/Mtl1/Mtl1_Run70.res	+00.0
+Results/Mtl1/Mtl1_Run71.res	+09.9
+Results/Mtl1/Mtl1_Run72.res	-89.5
+Results/Mtl1/Mtl1_Run73.res	+00.0

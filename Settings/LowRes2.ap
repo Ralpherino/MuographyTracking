@@ -1,0 +1,32 @@
+# This file contains the AnalysisParameters
+
+##### Detector level parameters
+#TrackMinNHits		4
+TrackMaxNMiss		2
+# Track details
+TrackKhi2Max		5.0
+TrackKhi2Good		0.0	
+TrackKhi2BinSize	0.1
+
+##### Chamber level parameters
+# Position Map BinSize
+PositionDepBinSize	8.0
+# Angular Map BinSize and range
+AngleMax		1.500
+AngleDepBinSize		0.200
+# Maximum distance of cluster and track
+DistMax			2.1
+# Spatial resolution
+ResolutionBinSize	0.5
+# Time resolution and auto-contraction
+TimeDepBinSizeSeconds	600
+MaxNTimeBins		50
+# Adc histogram
+AdcMin			-1000
+AdcMax			5000
+AdcBinSize		256
+# Clusters
+ClusterSizeLimit	5
+NClustersLimit		4
+ClusterPositionBinSize	2
+SmoothingPeriodLength	4

@@ -1,0 +1,30 @@
+
+Merge DetectorInfo : Help
+
+Merging the results of the Tracking to handle larger groups of measurements.
+Developed for the R&D and operation of the detectors of the WignerRCP REGARD Group.
+
+Usage of the program:
+./MergeDetectorInfo.run [switch [parameter]]
+
+Switches and parameters can be:
+-h,--help				- Shows this very help
+-b,--basic-info DBFile			- Loads Detector Basics file
+-ap,--analysis-parameters APFile	- Assumes that APFile was used as analysis parameters
+-n,--results-naming ResFilenaming	- Results files with ResFilenaming will be merged
+-l,--results-list ListFile		- Results listed in ListFile will be merged
+-m,--merged-name MergedFile		- Sets the naming of the output file
+-tb,--time-bins Number			- Sets the max timebins to Number
+-v,--verbose Number			- Sets the verbose level to Number (0..2)
+
+  Defaults directories 
+Results dir is default for switches : -m.
+Settings dir is default for switches : -b,-ap.
+Source dir contains the analysis source codes and their compiler.
+
+  Examples:
+To merge results from run 100 to 109 with MTL1 setup
+./MergeDetectorInfo.run -b Mtl1 -n Results/Mtl1_Run10 -m Mtl1_Run100-109
+
+End of Help.
+

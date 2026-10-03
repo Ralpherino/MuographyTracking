@@ -1,0 +1,17 @@
+# MTS-40 RunLevelInfoFile
+# RunName	ParameterName	Value
+
+# Kiralylaki Run83-95
+Run83		StartTime	2020-01-28_20:40
+Run84		StartTime	2020-02-02_12:22
+Run85		StartTime	2020-02-09_18:52
+Run86		StartTime	2020-02-17_13:13
+Run87		StartTime	2020-02-24_20:55
+Run88		StartTime	2020-03-08_20:18
+Run89		StartTime	2020-03-18_12:17
+Run90		StartTime	2020-03-21_12:57
+Run91		StartTime	2020-03-27_16:38
+Run92		NoExtraInfo
+Run93		StartTime	2020-04-09_21:02
+Run94		StartTime	2020-04-15_20:00
+Run95		StartTime	2020-04-26_20:00
